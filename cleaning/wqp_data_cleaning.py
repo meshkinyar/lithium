@@ -38,6 +38,9 @@ wqp_data['isUSGS'] = wqp_data['isUSGS'] > 0
 ## Dissolved?
 # Notes: Dissolved Lithium is probably our best measure as to what is bioavailable to organisms.
 # See: https://www.epa.gov/system/files/documents/2022-01/parameter-factsheet_metals_508.pdf
-
 wqp_data['Dissolved'] = wqp_data['ResultSampleFractionText'] == 'Dissolved'
+##
+
+##
+
 ##
